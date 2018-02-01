@@ -282,7 +282,6 @@ var paths = {
     'dist/private/scripts/services/dashboard/datasources/dataSourceUtils.js',
     'dist/private/scripts/services/dashboard/datasources/downloadReportDataSource.js',
     'dist/private/scripts/services/telemetryService.js'
-
   ],
   jsdocs_files: [
     'app/helpers/**/*.js',
@@ -320,7 +319,6 @@ var paths = {
   ],
   cdnDest: 'dist/cdn/',
   eslint: ['app/*.js', 'app/**/*.js', 'test/**/*.js', 'gulp/*.js']
-
 }
 
 module.exports = paths

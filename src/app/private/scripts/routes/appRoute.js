@@ -1,5 +1,4 @@
 'use strict'
-
 angular.module('playerApp')
   .config(function ($stateProvider, $urlRouterProvider, $qProvider) {
     $qProvider.errorOnUnhandledRejections(false) // To handle error rejection
