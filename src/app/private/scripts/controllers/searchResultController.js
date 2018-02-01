@@ -287,7 +287,8 @@ angular.module('playerApp').controller('SearchResultController', [
             'LessonPlan',
             'Resource',
             'Story',
-            'Worksheet'
+            'Worksheet',
+            'Game'
           ]
         }
         $scope.search.searchFn = searchService.contentSearch(req)

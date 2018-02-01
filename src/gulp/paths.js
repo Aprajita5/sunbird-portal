@@ -114,7 +114,6 @@ var paths = {
     'dist/public/scripts/service/httpService.js',
     'dist/public/scripts/service/signUpService.js',
     'dist/public/scripts/service/toasterService.js',
-    'dist/public/scripts/service/publicPlayerTelemetryUtilsService.js',
     'dist/public/scripts/service/contentService.js',
     'dist/public/scripts/directive/error.js',
     'dist/public/scripts/directive/loader.js',
@@ -182,9 +181,7 @@ var paths = {
     'dist/private/scripts/services/pageSectionService.js',
     'dist/private/scripts/services/searchService.js',
     'dist/private/scripts/services/permissionsService.js',
-    'dist/private/scripts/services/playerTelemetryUtilsService.js',
     'dist/private/scripts/services/contentStateService.js',
-    'dist/private/scripts/services/portalTelemetryService.js',
     'dist/private/scripts/services/toasterService.js',
     'dist/private/scripts/services/routeHelperService.js',
     'dist/private/scripts/services/formValidation.js',
@@ -285,14 +282,6 @@ var paths = {
     'dist/private/scripts/services/dashboard/datasources/dataSourceUtils.js',
     'dist/private/scripts/services/dashboard/datasources/downloadReportDataSource.js',
     'dist/private/scripts/services/telemetryService.js'
-
-  ],
-  telemetry_js: [
-    'dist/private/scripts/telemetry/TelemetryEvent.js',
-    'dist/private/scripts/telemetry/TelemetryService.js',
-    'dist/private/scripts/telemetry/TelemetryV2Manager.js',
-    'dist/private/scripts/telemetry/TelemetryServiceUtil.js',
-    'dist/private/scripts/telemetry/InActiveEvent.js'
   ],
   jsdocs_files: [
     'app/helpers/**/*.js',
@@ -330,7 +319,6 @@ var paths = {
   ],
   cdnDest: 'dist/cdn/',
   eslint: ['app/*.js', 'app/**/*.js', 'test/**/*.js', 'gulp/*.js']
-
 }
 
 module.exports = paths
