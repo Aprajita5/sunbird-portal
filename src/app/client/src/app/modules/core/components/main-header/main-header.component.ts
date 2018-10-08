@@ -142,7 +142,7 @@ export class MainHeaderComponent implements OnInit, OnDestroy {
       const enableSignupButton: string = (<HTMLInputElement>document.getElementById('enableSignup')) ?
         (<HTMLInputElement>document.getElementById('enableSignup')).value : 'true';
       this.enableSignup = (enableSignupButton.toLowerCase() === 'true');
-    } catch {
+    } catch (err) {
       console.log('error while fetching enableSignup');
     }
   }
